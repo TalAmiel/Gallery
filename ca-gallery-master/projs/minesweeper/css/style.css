@@ -1,0 +1,66 @@
+body {
+    background-color:burlywood;
+    text-align: center;
+    color: rgb(226, 43, 104);
+}
+
+table {
+    background-color: rgb(205, 226, 14)(229, 255, 0);
+    color: white;
+    /* border:20px;
+    padding: 25px; */
+    align-content: center;
+    margin:1em auto;
+}
+/* 
+.mine-board {
+    align-content: center;
+    margin:1em auto;
+} */
+
+/* td, th { */
+/* background-color: blue; */
+ /* visibility: hidden; */
+/* } */
+
+/* td {
+    background-color: brown; 
+    
+} */
+
+td {
+    background-color: aqua;
+    box-sizing: border-box
+}
+
+ testclass {
+    background-color: aqua;
+    color:red;
+ }
+
+ /* .testclass {
+        background-color: blueviolet;
+    }  */
+
+    .marked {
+        background-color: blue;
+        background-image: url("flag.png");
+        background-repeat: no-repeat;
+    background-size: auto;
+        
+        }
+
+        .clicked {
+            background-color: blue;
+
+        }
+
+        .lose {
+            font-size: 100px;
+            background-color: blueviolet;
+        }
+
+        .win {
+            font-size: 100px;
+            background-color: blueviolet;
+        }

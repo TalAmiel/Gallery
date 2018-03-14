@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Minesweeper!!!</title>
+    <link rel="icon" type="image/ico" href="favicon.jpg">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<h1>Minesweeper Game</h1>
+<div class="options">
+    <h2>Choose your level:</h2>
+    <button onclick="initGame(4, 2)">Beginner</button>
+    <button onclick="initGame(6, 5)">Medium</button>
+    <button onclick="initGame(8, 15)">Expert</button>
+</div>
+
+<div>
+    <h3>Time passed: <span class="timer"></span></h3>
+    <!-- <h1 class="win"></h1> -->
+</div>
+
+<div>
+    <h3>Opened Cells: <span class="opened"></span></h3>
+</div>
+
+<div>
+    <h3>Flagged Cells: <span class="flagged"></span></h3>
+    <h1 class="win"></h1>
+    <h1 class="lose"></h1>
+</div>
+
+
+
+<table border="1" cellpadding="25">
+    <tbody class="mine-board">
+    </tbody>
+</table>
+
+<body>
+    <script src="js/minesweeper.js"></script>
+    <body onload="initGame(4, 2)"></body>
+</body>
+
+</html>

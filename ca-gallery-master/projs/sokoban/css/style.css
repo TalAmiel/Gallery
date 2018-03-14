@@ -1,0 +1,25 @@
+body {
+    background-color:burlywood;
+    text-align: center;
+    color: rgb(226, 43, 104);
+}
+
+.floor {
+    background-color: aqua;
+}
+
+.wall {
+    background-color: blueviolet;
+}
+
+.target {
+    background-color: blue;
+}
+
+.player {
+    background-color:white;
+}
+
+.box {
+    background-color: red;
+}
